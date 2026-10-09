@@ -1,32 +1,29 @@
-# React + TypeScript + Vite
+# Box HYROX Jardim Itu · estudo de viabilidade
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Apresentação interativa (uma página) de um box de HYROX na Rua Gomes de Freitas, 216, Jardim Itu-Sabará, Porto Alegre.
 
-Currently, two official plugins are available:
+## Capítulos
+1. **O esporte**: formato da prova, as 8 estações clicáveis (o que é cada uma, pesos Open/Pro), divisões e comparação com CrossFit e academia.
+2. **O mercado**: números globais e do Brasil, calendário de provas, concorrência na cidade.
+3. **O ponto**: fotos, dados do imóvel, por que o formato serve, concorrentes num raio de 1,5 km.
+4. **O box por dentro**: planta proposta clicável e simulador de lotação (como 150 alunos cabem na grade).
+5. **Equipamentos**: monte o box item a item (mínimo × ideal), Brave, Concept2 e Mercado Livre.
+6. **Investimento e custos**: CAPEX dos cenários conservador e otimista, custo mensal, equipe e licenças.
+7. **Stress test**: projeção de 36 meses com cenários de estresse (hype esfria, guerra de preço, aluguel, etc.).
+8. **Arena, riscos e expansão**: debate de 10 agentes com votação, matriz de risco, plano B, expansão.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Navegação: barra superior em formato de pista; setas ← → pulam de capítulo.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Rodar
+```bash
+npm install
+npm run dev      # desenvolvimento
+npm run build    # gera dist/ (site estático, base relativa)
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Onde mexer nos números
+- `src/data/model.ts`: equipamentos, preços, quantidades, CAPEX, premissas dos cenários e o simulador.
+- `src/data/content.ts`: textos do esporte, mercado, ponto, concorrentes, arena, riscos, expansão e fontes.
+
+`material-original/` guarda as mídias e áudios originais do projeto; o site usa versões comprimidas em `public/media/`.
+O histórico das conversas está em `CONVERSA_HISTORICO.md` e `ANALISE_SIMULACOES.md`.
