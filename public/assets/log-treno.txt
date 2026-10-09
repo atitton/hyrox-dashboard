@@ -1,0 +1,10 @@
+Tarefa criada: 7cfc4b56354d39b8e2a82ed0f089f9f0
+  waiting… 0s
+  waiting… 10s
+  waiting… 20s
+  waiting… 31s
+  waiting… 41s
+  waiting… 51s
+  waiting… 62s
+Pronto: C:\Users\Usuario\Desktop\Projetos Pessoais\FreeStyle\box-hyrox-video\assets\cena-treno.mp4
+Créditos: 869.0 -> 569.0 (gastou 300.0)

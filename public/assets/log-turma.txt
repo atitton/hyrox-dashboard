@@ -1,0 +1,13 @@
+Tarefa criada: 50de862f7205e5b308cdf9bea0b0bb04
+  waiting… 0s
+  waiting… 10s
+  waiting… 20s
+  waiting… 31s
+  waiting… 41s
+  waiting… 51s
+  waiting… 61s
+  waiting… 72s
+  waiting… 82s
+  waiting… 92s
+Pronto: C:\Users\Usuario\Desktop\Projetos Pessoais\FreeStyle\box-hyrox-video\assets\cena-turma.mp4
+Créditos: 869.0 -> 569.0 (gastou 300.0)

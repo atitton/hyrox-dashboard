@@ -1,0 +1,10 @@
+Tarefa criada: 9e456ea338b16e9337e89a1850989255
+  waiting… 0s
+  waiting… 10s
+  waiting… 20s
+  waiting… 31s
+  waiting… 41s
+  waiting… 51s
+  waiting… 61s
+Pronto: C:\Users\Usuario\Desktop\Projetos Pessoais\FreeStyle\box-hyrox-video\assets\cena-corrida.mp4
+Créditos: 869.0 -> 569.0 (gastou 300.0)

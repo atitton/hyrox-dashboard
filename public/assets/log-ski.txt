@@ -1,0 +1,9 @@
+Tarefa criada: 8f9bacf7bb07f226c4bf00543ff30238
+  waiting… 0s
+  waiting… 10s
+  waiting… 20s
+  waiting… 31s
+  waiting… 41s
+  waiting… 51s
+Pronto: C:\Users\Usuario\Desktop\Projetos Pessoais\FreeStyle\box-hyrox-video\assets\cena-ski.mp4
+Créditos: 869.0 -> 569.0 (gastou 300.0)
