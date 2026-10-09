@@ -18,7 +18,7 @@ export const stations: Station[] = [
     n: 1, name: 'SkiErg', pt: 'Ergômetro de esqui', distance: '1.000 m',
     how: 'O atleta fica em pé e puxa dois cabos de cima para baixo, dobrando quadril e joelhos, como quem empurra bastões de esqui na neve. A ventoinha cria a resistência.',
     works: 'Costas, ombros, tríceps e abdômen. Cansa o pulmão logo na largada.',
-    openM: '1.000 m', openW: '1.000 m', pro: '1.000 m', equipment: 'SkiErg (Concept2 na prova)', img: 'skierg', video: 'cena-ski',
+    openM: '1.000 m', openW: '1.000 m', pro: '1.000 m', equipment: 'SkiErg (Concept2 na prova)', img: 'skierg',
   },
   {
     n: 2, name: 'Sled Push', pt: 'Empurrar o trenó', distance: '50 m',
